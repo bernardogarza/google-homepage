@@ -23,6 +23,25 @@ header ul li
     margin: 10px;
 }
 
+#apps
+{
+    opacity: .65;
+    width: 25px;
+    height: 25px;
+    border-radius: 0px;
+    display: inline-block;
+    position: relative;
+    align-self: center;
+    background-position: -132px -38px;
+    vertical-align: middle;
+}
+#apps:hover
+{
+    opacity: .85;
+    width: 25px;
+    height: 25px;
+}
+
 #sign-in
 {
     background: -moz-linear-gradient(top,#4387fd,#4683ea);
@@ -36,6 +55,8 @@ header ul li
     font-size: 13px;
     color: white;
     font-family: arial,sans-serif;
+    margin: 0px 5px 5px 5px;
+    position: relative;
 }
 #sign-in:hover
 {
@@ -125,30 +146,54 @@ align-items: center;
     color: #222;
 }
 
-#footer
+footer
 {
-    color: rgb(63, 63, 63); 
-    text-decoration: none;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border-top: 1px solid #d1d1d1;
+    text-align: right;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-bottom: 0px;
+    font-size: 10pt;
+}
+footer ul li
+{
+    display: inline-block;
+    margin: 0px important!;
+    padding-left: 30px;
+    
+}
+#footer-left
+{
+    float: left;
+    margin-left: -32px;
+}
+#footer-right
+{
+    float: right;
+    margin-right: 30px;
 }
 
-#apps
+header a
 {
-    opacity: .65;
-    width: 25px;
-    height: 25px;
-    border-radius: 0px;
-}
-#apps:hover
-{
-    opacity: .85;
-    width: 25px;
-    height: 25px;
-}
-
-.top-links
-{
-    color: rgb(63, 63, 63); 
     text-decoration: none;
     font-size: 13px;
+    color: rgb(63, 63, 63);
+}
+header a:hover
+{
+    text-decoration: underline;
+}
 
+footer a
+{
+    color: #5f6368;
+    font-size: small;
+    text-decoration: none;
+}
+footer a:hover
+{
+    text-decoration: underline;
 }
